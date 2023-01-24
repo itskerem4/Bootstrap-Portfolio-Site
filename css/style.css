@@ -1,0 +1,32 @@
+.pimage{
+    width: 200px;
+    height: 200px;
+}
+.bordernav{
+    width: 25vh;
+}
+.bordernav:hover{
+    width: 35vh;
+    font-size: 25px;
+    transition: .4s .1s;
+}
+@media screen and (max-width: 760px){
+    .hide-logo {
+        display: none; 
+       } 
+       .menu{
+        height: 100%;
+    }
+    
+   }
+   @media screen and (min-width: 760px){
+    .hide-nav {
+        display: none;
+       } 
+       .menu{
+        height: 100vh;
+    }
+   }
+   .hide-img{
+    width: 30px;
+    }
